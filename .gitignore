@@ -14,3 +14,19 @@ dist/
 .idea/
 .vscode/
 
+
+# Secrets / local environment
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# JS / Next.js
+node_modules/
+.next/
+out/
+
+# Local tooling
+.vscode/

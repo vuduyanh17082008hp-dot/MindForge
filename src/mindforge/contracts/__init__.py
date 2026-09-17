@@ -37,6 +37,9 @@ from mindforge.contracts.routing import (
     RouteReasonCode,
 )
 
+from mindforge.contracts.competence import CompetenceProfile
+from mindforge.contracts.runtime import ContextManifest
+
 __all__ = [
     "ArtifactReference",
     "ArtifactType",
@@ -66,5 +69,7 @@ __all__ = [
     "Scope",
     "UncertaintyLevel",
     "UncertaintySummary",
+    "CompetenceProfile",
+    "ContextManifest",
 ]
 
