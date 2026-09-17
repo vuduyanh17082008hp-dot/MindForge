@@ -1,6 +1,31 @@
 # MindForge
 
-> An evidence-calibrated cognitive architecture for adaptive human-AI collaboration.
+> **A resource-rational, evidence-calibrated architecture for longitudinal human-AI collaboration.**
+
+MindForge is a research project investigating whether an AI system can maintain **explicit, inspectable, and revisable beliefs about an individual**, make falsifiable predictions from those beliefs, compare them with real outcomes, and adapt assistance under bounded compute while preserving human autonomy.
+
+### Core principles
+
+- **State ≠ Trait** ? transient behavior must not silently become a persistent characteristic.
+- **Model confidence ≠ metacognitive authority** ? routing, verification, and persistent writes are externally governed.
+- **Memory is reconstructed and validated** ? historical context is not blindly replayed.
+- **Prediction before correction** ? beliefs generate predictions that can later be tested against outcomes.
+- **Decoupled execution** ? MindForge determines cognitive actions; execution layers such as Javis OS or a lightweight runner perform model/tool calls.
+
+### Current status
+
+**Research RFC + tested reference implementation.**
+
+The repository currently contains the formal architecture, typed contracts, an External Metacognitive Governor, Prediction Ledger, Reconstructive Memory Gate, empirical competence contracts, and deterministic tests.
+
+No large-scale human-subject effectiveness claim has been established yet.
+
+### Start here
+
+**[Read RFC-001: MindForge Architecture](docs/rfcs/RFC-001_MindForge_Architecture.md)**  
+[Research Thesis](docs/RESEARCH-THESIS.md) ? [Data Contracts](docs/DATA-CONTRACTS.md) ? [Open Research Questions](docs/OPEN-RESEARCH-QUESTIONS.md)
+
+---
 
 ## Problem
 
