@@ -49,6 +49,23 @@ src/           MindForge Python package and contracts
 tests/         Contract tests
 ```
 
+## Research Architecture
+
+MindForge is a research architecture for longitudinal human-AI collaboration. It studies whether an AI system can maintain explicit, inspectable, and revisable beliefs about an individual; make falsifiable predictions from those beliefs; resolve delayed outcomes; evaluate its own calibration; and adapt assistance under bounded compute while preserving human autonomy.
+
+The current architecture separates cognitive control from model execution. Foundation models may generate or reason, but routing, evidence sufficiency, persistent-memory writes, and safety-critical escalation are governed externally by typed policies and empirical state.
+
+Core invariants include:
+
+- **State ≠ Trait**
+- **Model self-confidence is not metacognitive authority**
+- **Memory is reconstructed and validated, not blindly replayed**
+- **MindForge determines cognitive actions; execution infrastructure handles API/tool calls**
+
+The current work is a **Research RFC / Architectural Specification**, not a claim of general superiority or a completed large-scale human study.
+
+?? Read the full specification in [RFC-001](docs/rfcs/RFC-001_MindForge_Architecture.md).
+
 ## Development setup
 
 ```powershell
